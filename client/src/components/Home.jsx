@@ -71,7 +71,7 @@ const Home = () => {
             <div className='d-flex justify-content-center align-items-center'>
                 <div className='w-75'>
                     <h2 className='text-center mt-3'>CVE LIST</h2>
-                    <h4 className='mt-3'>Total Records: {cvedata.length+228594}</h4>
+                    <h4 className='mt-3'>Total Records: {cvedata.length}</h4>
                     <div className="mb-3">
                         <input type="text" className="form-control" placeholder="Search by CVE ID" name="cveId" value={filter.cveId} onChange={handleInputChange} />
                         <button className="btn btn-primary mt-2" onClick={handleSearch}>Search</button>
